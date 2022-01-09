@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import CreditsCard from './CreditsCard';
-import CreditsDetail from './CreditsDetail';
+import CreditsCard from '../organisms/CreditsCard';
+import CreditsDetail from '../organisms/CreditsDetail';
 
 const Credits = () => {
     const [value, setValue] = useState("1");
